@@ -1,5 +1,6 @@
 from collections import deque
 
+
 class MinStack:
-    stack = deque()
-    lesser_list = deque()
+    def __init__(self):
+        self.stack = deque()

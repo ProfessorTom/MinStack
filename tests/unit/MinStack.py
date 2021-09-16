@@ -2,9 +2,8 @@ import pytest
 
 from src.MinStack.MinStack import MinStack
 
-
-def test_initialization():
+@pytest.mark.initailization
+def test_stack_member():
     minstack = MinStack()
-    assert len(minstack.stack)  == 0
-    assert len(minstack.lesser_list) == 0
+    assert len(minstack.stack) == 0
 
